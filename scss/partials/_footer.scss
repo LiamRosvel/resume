@@ -1,0 +1,50 @@
+.footer {
+    background-color: $color3;
+
+    &__container {
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+        padding: 4em 0;
+    }
+    &__social {
+        padding: 2em 0;
+    }
+    &__social-title {
+        text-transform: uppercase;
+        font-size: 1em;
+        color: #fafafa;
+        margin: 0 0 2em;
+    }
+    &__social-link {
+        text-decoration: none;
+        font-size: 1.1em;
+        color: rgba(#ccc, .9);
+    }
+    &__social-github {
+        width: 2em;
+        height: 2em;     
+        fill: rgba(#ccc, .9);
+    }
+    &__social-link,
+    &__social-github {
+        transition: all 350ms ease-in;
+        &:hover {
+            color: #fafafa;
+            fill: #fafafa;
+        }
+    }
+    &__copyright {
+
+    }
+    &__copyright-text {
+        line-height: 1.7;
+        font-size: .9em;
+        color: rgba(#ccc, .5);
+    }
+    &__copyright-heart {
+        width: 1em;
+        height: 1em;
+        fill: $color1;
+    }
+}

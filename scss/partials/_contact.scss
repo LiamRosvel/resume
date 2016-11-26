@@ -1,0 +1,37 @@
+.contact {
+
+    &__container {
+        width: 90%;
+        margin: 0 auto;
+        padding: 6em 0;
+    }
+    &__header {
+        text-align: center;
+    }
+    &__header-title {
+        color: $color2;
+        font-size: 2.1em;
+        margin-top: 0;
+    }
+    &__button {
+        text-decoration: none;
+        display: block;
+        line-height: 3;
+        font-size: 1.5em;
+        font-weight: $medium;
+        color: #ffffff;
+        background-color: #7fc719;
+        border-bottom: 5px solid #598C12;
+        width: 12em;
+        margin: 0 auto;
+        text-align: center;
+        border-radius: 5px;
+        transition: all 450ms ease-in-out;
+        &:active {
+            transform: scale(.95);
+        }
+        &:hover {
+            background-color: darken(#7fc719, 4%);
+        }
+    }
+}
