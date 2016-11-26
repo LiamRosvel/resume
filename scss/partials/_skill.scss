@@ -1,0 +1,71 @@
+.skill {
+
+    &__container {
+        width: 90%;
+        margin: 0 auto;
+        padding: 4em 0;
+        border-bottom: 3px solid #eaeaea;
+    }
+    &__header {
+        text-align: center;
+        margin-bottom: 4em;
+    }
+    &__header-title {
+        color: $color2;
+        font-size: 2.1em;
+        margin-bottom: 1em;
+    }
+    &__header-text {
+        color: $color3;
+        font-size: 1.2em;
+        line-height: 1.6;
+        font-weight: $light;
+    }
+    //Styles item
+    &__items-container {
+
+    }
+    &__item {
+        box-shadow: .2px .2px 2px 1px rgba(#ccc, .3);
+        background-color: #fff;
+        border-radius: 5px;
+        padding: 1em 1em 2em;
+        margin-bottom: 2em;
+        text-align: center;
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    &__item-header {
+        margin-bottom: 2.3em;
+        width: 100%;
+    }
+    &__item-header-title {
+        color: $color2;
+        font-weight: $medium;
+        font-size: 1.3em;
+    }
+    &__item-list {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        text-align: left;
+    }
+    &__item-list-item {
+        position: relative;
+        padding-left: 2.1em;
+        margin-bottom: 2em;
+        font-weight: $normal;
+        font-size: 1.1em;
+    }
+    &__item-icon {
+        fill: $color1;
+        width: 2em;
+        height: 2em;
+
+        position: absolute;
+        top: -.5em;
+        left: 0;
+    }
+}

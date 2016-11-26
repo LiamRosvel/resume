@@ -1,0 +1,202 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700");
+* {
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #fafafa; }
+
+img {
+  max-width: 100%; }
+
+.about {
+  margin-top: 35.5em; }
+  .about__container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 5em 0 2em;
+    border-bottom: 3px solid #eaeaea; }
+  .about__header {
+    text-align: center;
+    margin-bottom: 3em; }
+  .about__header-title {
+    color: #32363e;
+    font-size: 2.1em; }
+  .about__text-container {
+    margin-bottom: 7em; }
+  .about__text {
+    color: #212121;
+    font-size: 1.2em;
+    line-height: 1.8;
+    font-weight: 300; }
+  .about__item {
+    text-align: center;
+    margin-bottom: 4em; }
+  .about__item-icon {
+    width: 10em;
+    height: 10em; }
+  .about__icon-circle {
+    fill: #ff5252; }
+  .about__icon-path {
+    fill: #ffffff; }
+  .about__item-year {
+    color: #ff5252;
+    font-weight: 700;
+    font-size: 1.3em; }
+  .about__item-title {
+    text-transform: uppercase; }
+  .about__item-text {
+    font-size: 1.2em;
+    font-weight: 300;
+    line-height: 1.6; }
+  .about__item-title, .about__item-text {
+    color: #212121; }
+
+.header {
+  position: relative;
+  z-index: 500; }
+  .header__container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 3em 0;
+    text-align: center; }
+  .header__logo {
+    width: 12em; }
+  .header__logo-path2 {
+    fill: #ff5252; }
+  .header__logo-path3 {
+    fill: #ff7171; }
+  .header__logo-path1, .header__logo-path4 {
+    fill: #fff; }
+
+.landing {
+  background: url(../images/small-bg.jpg) center/cover no-repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 400; }
+  .landing__container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 8em 0 4em; }
+  .landing__items {
+    text-align: center; }
+  .landing__img-container {
+    margin: 0 auto 2em;
+    padding: 0;
+    width: 11em; }
+  .landing__img {
+    border-radius: 50%;
+    border: 8px solid #fff;
+    filter: saturate(0.8); }
+  .landing__title, .landing__copy {
+    color: #fff; }
+  .landing__title {
+    font-weight: 600;
+    font-size: 2.3em; }
+  .landing__copy {
+    font-size: 1.3em;
+    font-weight: 300;
+    line-height: 1.7; }
+
+.portfolio__container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 4em 0;
+  border-bottom: 3px solid #eaeaea; }
+
+.portfolio__header {
+  text-align: center;
+  margin-bottom: 2em; }
+
+.portfolio__header-title {
+  color: #32363e;
+  font-size: 2.1em;
+  margin-bottom: 1em; }
+
+.portfolio__header-text {
+  color: #32363e;
+  font-size: 1.2em;
+  line-height: 1.6;
+  font-weight: 300; }
+
+.portfolio__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center; }
+
+.portfolio__link {
+  line-height: 5;
+  text-decoration: none;
+  color: #212121;
+  font-size: 1.1em; }
+
+.portfolio__link-color {
+  color: #ff5252; }
+
+.skill__container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 4em 0;
+  border-bottom: 3px solid #eaeaea; }
+
+.skill__header {
+  text-align: center;
+  margin-bottom: 4em; }
+
+.skill__header-title {
+  color: #32363e;
+  font-size: 2.1em;
+  margin-bottom: 1em; }
+
+.skill__header-text {
+  color: #212121;
+  font-size: 1.2em;
+  line-height: 1.6;
+  font-weight: 300; }
+
+.skill__item {
+  box-shadow: 0.2px 0.2px 2px 1px rgba(204, 204, 204, 0.3);
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 1em 1em 2em;
+  margin-bottom: 2em;
+  text-align: center;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: center;
+      justify-content: center; }
+
+.skill__item-header {
+  margin-bottom: 2.3em;
+  width: 100%; }
+
+.skill__item-header-title {
+  color: #32363e;
+  font-weight: 600;
+  font-size: 1.3em; }
+
+.skill__item-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: left; }
+
+.skill__item-list-item {
+  position: relative;
+  padding-left: 2.1em;
+  margin-bottom: 2em;
+  font-weight: 400;
+  font-size: 1.1em; }
+
+.skill__item-icon {
+  fill: #ff5252;
+  width: 2em;
+  height: 2em;
+  position: absolute;
+  top: -.5em;
+  left: 0; }

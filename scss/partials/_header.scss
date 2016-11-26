@@ -1,0 +1,25 @@
+.header {
+    position: relative;
+    z-index: 500;
+
+    &__container {
+        width: 90%;
+        margin: 0 auto;
+        padding: 3em 0;
+        text-align: center;
+    }
+    //style for logo
+    &__logo {
+        width: 12em;
+    }
+    &__logo-path2 {
+        fill: #ff5252;
+    }
+    &__logo-path3 {
+        fill: #ff7171;
+    }
+    &__logo-path1,
+    &__logo-path4 {
+        fill: #fff;
+    }
+}

@@ -1,0 +1,59 @@
+.about {
+    margin-top: 35.5em;
+    
+    &__container {
+        width: 90%;
+        margin: 0 auto;
+        padding: 5em 0 2em;
+        border-bottom: 3px solid #eaeaea;
+    }
+    &__header {
+        text-align: center;
+        margin-bottom: 3em;
+    }
+    &__header-title {
+        color: $color2;
+        font-size: 2.1em;
+    }
+    &__text-container {
+        margin-bottom: 7em;
+    }
+    &__text {
+        color: $color3;
+        font-size: 1.2em;
+        line-height: 1.8;
+        font-weight: $light;
+    }
+    //Styles of svg icons
+    &__item {
+        text-align: center;
+        margin-bottom: 4em;
+    }
+    &__item-icon {
+        width: 10em;
+        height: 10em;
+    }
+    &__icon-circle {
+        fill: #ff5252;
+    }
+    &__icon-path {
+        fill: #ffffff;
+    }
+    &__item-year {
+        color: $color1;
+        font-weight: $bold;
+        font-size: 1.3em;
+    }
+    &__item-title {
+        text-transform: uppercase;
+    }
+    &__item-text {
+        font-size: 1.2em;
+        font-weight: $light;
+        line-height: 1.6;
+    }
+    &__item-title,
+    &__item-text {
+        color: $color3;
+    }
+}
