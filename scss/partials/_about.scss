@@ -1,11 +1,35 @@
 .about {
     margin-top: 35.5em;
+
+    @media screen and (min-width: 480px) {
+        margin-top: 33em;
+    }
+
+    @media screen and (min-width: 640px) {
+        margin-top: 28em;
+    }
+
+    @media screen and (min-width: 768px) {
+        margin-top: 28em;
+    }
+
+    @media screen and (min-width: 1024px) {
+        margin-top: 26em;
+    }
     
     &__container {
         width: 90%;
         margin: 0 auto;
         padding: 5em 0 2em;
         border-bottom: 3px solid #eaeaea;
+
+        @media screen and (min-width: 768px) {
+            width: 80%;
+        }
+
+        @media screen and (min-width: 1200px) {
+            width: 1070px;
+        }
     }
     &__header {
         text-align: center;
@@ -17,21 +41,50 @@
     }
     &__text-container {
         margin-bottom: 7em;
+
+        @media screen and (min-width: 1200px) {
+            display: flex;
+            justify-content: space-between;
+        }
     }
     &__text {
         color: $color3;
         font-size: 1.2em;
         line-height: 1.8;
         font-weight: $light;
+
+        @media screen and (min-width: 768px) {
+            text-align: center;
+        }
+        @media screen and (min-width: 1200px) {
+            width: 48%;
+            text-align: left;
+        }
+
+    }
+    &__items-container {
+        @media screen and (min-width: 1024px) {
+            display: flex;
+            justify-content: space-between;
+        }
     }
     //Styles of svg icons
     &__item {
         text-align: center;
         margin-bottom: 4em;
+
+        @media screen and (min-width: 1024px) {
+            width: 29%;       
+        }
     }
     &__item-icon {
         width: 10em;
         height: 10em;
+
+        @media screen and (min-width: 1024px) {
+            width: 8em;
+            height: 8em;       
+        }
     }
     &__icon-circle {
         fill: #ff5252;
@@ -43,14 +96,26 @@
         color: $color1;
         font-weight: $bold;
         font-size: 1.3em;
+
+        @media screen and (min-width: 1024px) {
+            font-size: 1.1em;
+        }
     }
     &__item-title {
         text-transform: uppercase;
+
+        @media screen and (min-width: 1024px) {
+            font-size: 1em;
+        }
     }
     &__item-text {
         font-size: 1.2em;
         font-weight: $light;
         line-height: 1.6;
+
+        @media screen and (min-width: 1024px) {
+            font-size: 1em;
+        }
     }
     &__item-title,
     &__item-text {

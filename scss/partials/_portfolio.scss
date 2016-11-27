@@ -5,10 +5,18 @@
         margin: 0 auto;
         padding: 4em 0;
         border-bottom: 3px solid #eaeaea;
+
+        @media screen and (min-width: 768px) {
+            width: 80%;
+        }
+
+        @media screen and (min-width: 1200px) {
+            width: 1070px;
+        }
     }
     &__header {
         text-align: center;
-        margin-bottom: 2em;
+        margin-bottom: 3.5em;
     }
     &__header-title {
         color: $color2;
@@ -34,10 +42,23 @@
         
     }
     &__link {
-        line-height: 5;
         text-decoration: none;
+        display: inline-block;
+        line-height: 2;
+        margin-bottom: 3em;
         color: $color3;
         font-size: 1.1em;
+        &:after {
+            content: "";
+            display: block;
+            width: 0;
+            background-color: $color3;
+            height: 2px;
+            transition: all 200ms ease-in;
+        }
+        &:hover:after {
+            width: 100%;
+        }
     }
     &__link-color {
         color: $color1;
